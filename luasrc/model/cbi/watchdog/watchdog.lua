@@ -23,6 +23,19 @@ local wd_device = s:option(Value, "device",
 	translate("Device"))
 
 wd_device.default = "/dev/watchdog"
+wd_device.rmempty = false
+
+function wd_device.validate(self, value, section)
+	if not value or value == "" then
+		return nil, translate("Device must be specified")
+	end
+
+	if nixio.fs.stat(value, "type") ~= "chr" then
+		return nil, translate("Specified device is not valid character device")
+	end
+
+	return Value.validate(self, value, section)
+end
 
 -- Timeout
 local wd_timeout = s:option(Value, "timeout",
@@ -50,6 +63,8 @@ function wd_period.validate(self, value, section)
 	if timeout < period then
 		return nil, translate("Watchdog period cannot be less than timeout")
 	end
+
+	return Value.validate(self, value, section)
 end
 
 -- Scheduling policy
