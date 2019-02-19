@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: luci-app-snmpd-tn\n"
-"PO-Revision-Date: 2019-02-19 11:04+0300\n"
+"PO-Revision-Date: 2019-02-19 12:21+0300\n"
 "Last-Translator: Anton Kikin <a.kikin@tano-systems.com>\n"
 "Language-Team: none\n"
 "Language: ru\n"
@@ -27,7 +27,8 @@ msgstr "Устройство"
 
 #: luasrc/model/cbi/watchdog/watchdog.lua:14
 msgid "On this page you may configure watchdog settings."
-msgstr "На этой странице можно выполнить настройку параметров Watchdog."
+msgstr ""
+"На этой странице можно выполнить настройку параметров сторожевого таймера (watchdog)."
 
 #: luasrc/model/cbi/watchdog/watchdog.lua:39
 msgid "Period"
@@ -51,9 +52,8 @@ msgid ""
 "as SCHED_OTHER. The nice value is a number in the range -20 (high priority) to +19 "
 "(low prior ity)."
 msgstr ""
-"Данный параметр определяет значение «nice» для политики SCHED_OTHER. Значение "
-"«nice» является числом в диапазоне от -20 (высокий приоритет) до +19 (низкий "
-"приоритет)."
+"Данный параметр определяет значение «nice» для политики SCHED_OTHER. Значение «nice» "
+"является числом в диапазоне от -20 (высокий приоритет) до +19 (низкий приоритет)."
 
 #: luasrc/model/cbi/watchdog/watchdog.lua:68
 msgid ""
@@ -74,20 +74,20 @@ msgid ""
 "Timeout value in seconds. If the watchdog is not resetted within the specified time, "
 "the system will be rebooted."
 msgstr ""
-"Значение таймаута в секундах. Если watchdog не сбрасывается в течении указанного "
-"времени, система будет перезагружена."
+"Значение таймаута в секундах. Если сторожевой таймер не сбрасывается в течении "
+"указанного времени, система будет перезагружена."
 
 #: luasrc/controller/watchdog.lua:13
 msgid "Watchdog"
-msgstr "Watchdog"
+msgstr "Сторожевой таймер"
 
 #: luasrc/view/watchdog/footer.htm:8
 msgid "Watchdog LuCI application (version %s)"
-msgstr "LuCI приложение конфигурации Watchdog (версия %s)"
+msgstr "LuCI приложение конфигурации сторожевого таймера (версия %s)"
 
 #: luasrc/model/cbi/watchdog/watchdog.lua:13
 msgid "Watchdog Settings"
-msgstr "Настройки Watchdog"
+msgstr "Настройки сторожевого таймера"
 
 #: luasrc/model/cbi/watchdog/watchdog.lua:51
 msgid "Watchdog period cannot be less than timeout"
@@ -95,4 +95,4 @@ msgstr "Период не может быть меньше таймаута"
 
 #: luasrc/model/cbi/watchdog/watchdog.lua:40
 msgid "Watchdog reset interval in seconds."
-msgstr "Интервал сброса Watchdog в секундах."
+msgstr "Интервал сброса сторожевого таймера в секундах."
