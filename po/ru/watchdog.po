@@ -1,0 +1,98 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: luci-app-snmpd-tn\n"
+"PO-Revision-Date: 2019-02-19 10:39+0300\n"
+"Last-Translator: Anton Kikin <a.kikin@tano-systems.com>\n"
+"Language-Team: none\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n"
+"%100<10 || n%100>=20) ? 1 : 2);\n"
+"POT-Creation-Date: \n"
+"X-Generator: Poedit 2.2\n"
+
+#: luasrc/view/watchdog/footer.htm:9
+msgid ""
+"&copy; 2019, Tano Systems, Anton Kikin &lt;<a href=\"mailto:a.kikin@tano-systems.com"
+"\"><nobr>a.kikin@tano-systems.com</nobr></a>&gt;"
+msgstr ""
+"&copy; 2019, Tano Systems, Антон Кикин &lt;<a href=\\\"mailto:a.\"\n"
+"\"kikin@tano-systems.com\\\"><nobr>a.kikin@tano-systems.com</nobr></a>&gt;"
+
+#: luasrc/model/cbi/watchdog/watchdog.lua:23
+msgid "Device"
+msgstr "Устройство"
+
+#: luasrc/model/cbi/watchdog/watchdog.lua:14
+msgid "On this page you may configure watchdog settings."
+msgstr "На этой странице можно выполнить настройку параметров Watchdog."
+
+#: luasrc/model/cbi/watchdog/watchdog.lua:39
+msgid "Period"
+msgstr "Период"
+
+#: luasrc/model/cbi/watchdog/watchdog.lua:80
+msgid "Scheduling 'nice' value"
+msgstr "Значение «nice»"
+
+#: luasrc/model/cbi/watchdog/watchdog.lua:57
+msgid "Scheduling policy"
+msgstr "Политика планировщика задач"
+
+#: luasrc/model/cbi/watchdog/watchdog.lua:67
+msgid "Scheduling priority"
+msgstr "Приоритет задачи"
+
+#: luasrc/model/cbi/watchdog/watchdog.lua:81
+msgid ""
+"This parameter specifies the nice value to be set when specifying scheduling policy "
+"as SCHED_OTHER. The nice value is a number in the range -20 (high priority) to +19 "
+"(low prior ity)."
+msgstr ""
+"Данный параметр определяет значение «nice» для политики SCHED_OTHER планировщика "
+"задач. Значение «nice» является числом в диапазоне от -20 (высокий приоритет) до +19 "
+"(низкий приоритет)."
+
+#: luasrc/model/cbi/watchdog/watchdog.lua:68
+msgid ""
+"This parameter specifies the static priority to be set when specifying scheduling "
+"policy as SCHED_FIFO or SCHED_RR. The allowed range of priorities usually is in the "
+"range 1 (low priority) to 99 (high priority)."
+msgstr ""
+"Данный параметр определяет значение приоритета для политик SCHED_FIFO и SCHED_RR "
+"планировщика задач. Значение приоритета является числом в диапазоне от 1 (низкий "
+"приоритет) до 99 (высокий приоритет)."
+
+#: luasrc/model/cbi/watchdog/watchdog.lua:29
+msgid "Timeout"
+msgstr "Таймаут"
+
+#: luasrc/model/cbi/watchdog/watchdog.lua:30
+msgid ""
+"Timeout value in seconds. If the watchdog is not resetted within the specified time, "
+"the system will be rebooted."
+msgstr ""
+"Значение таймаута в секундах. Если watchdog не сбрасывается в течении указанного "
+"времени, система будет перезагружена."
+
+#: luasrc/controller/watchdog.lua:13
+msgid "Watchdog"
+msgstr "Watchdog"
+
+#: luasrc/view/watchdog/footer.htm:8
+msgid "Watchdog LuCI application (version %s)"
+msgstr "LuCI приложение конфигурации Watchdog (версия %s)"
+
+#: luasrc/model/cbi/watchdog/watchdog.lua:13
+msgid "Watchdog Settings"
+msgstr "Настройки Watchdog"
+
+#: luasrc/model/cbi/watchdog/watchdog.lua:51
+msgid "Watchdog period cannot be less than timeout"
+msgstr "Период не может быть меньше таймаута"
+
+#: luasrc/model/cbi/watchdog/watchdog.lua:40
+msgid "Watchdog reset interval in seconds."
+msgstr "Интервал сброса Watchdog в секундах."

@@ -1,0 +1,76 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+#: luasrc/view/watchdog/footer.htm:9
+msgid ""
+"&copy; 2019, Tano Systems, Anton Kikin &lt;<a href=\"mailto:a.kikin@tano-"
+"systems.com\"><nobr>a.kikin@tano-systems.com</nobr></a>&gt;"
+msgstr ""
+
+#: luasrc/model/cbi/watchdog/watchdog.lua:23
+msgid "Device"
+msgstr ""
+
+#: luasrc/model/cbi/watchdog/watchdog.lua:14
+msgid "On this page you may configure watchdog settings."
+msgstr ""
+
+#: luasrc/model/cbi/watchdog/watchdog.lua:39
+msgid "Period"
+msgstr ""
+
+#: luasrc/model/cbi/watchdog/watchdog.lua:80
+msgid "Scheduling 'nice' value"
+msgstr ""
+
+#: luasrc/model/cbi/watchdog/watchdog.lua:57
+msgid "Scheduling policy"
+msgstr ""
+
+#: luasrc/model/cbi/watchdog/watchdog.lua:67
+msgid "Scheduling priority"
+msgstr ""
+
+#: luasrc/model/cbi/watchdog/watchdog.lua:81
+msgid ""
+"This parameter specifies the nice value to be set when specifying scheduling "
+"policy as SCHED_OTHER. The nice value is a number in the range -20 (high "
+"priority) to +19 (low prior ity)."
+msgstr ""
+
+#: luasrc/model/cbi/watchdog/watchdog.lua:68
+msgid ""
+"This parameter specifies the static priority to be set when specifying "
+"scheduling policy as SCHED_FIFO or SCHED_RR. The allowed range of priorities "
+"usually is in the range 1 (low priority) to 99 (high priority)."
+msgstr ""
+
+#: luasrc/model/cbi/watchdog/watchdog.lua:29
+msgid "Timeout"
+msgstr ""
+
+#: luasrc/model/cbi/watchdog/watchdog.lua:30
+msgid ""
+"Timeout value in seconds. If the watchdog is not resetted within the "
+"specified time, the system will be rebooted."
+msgstr ""
+
+#: luasrc/controller/watchdog.lua:13
+msgid "Watchdog"
+msgstr ""
+
+#: luasrc/view/watchdog/footer.htm:8
+msgid "Watchdog LuCI application (version %s)"
+msgstr ""
+
+#: luasrc/model/cbi/watchdog/watchdog.lua:13
+msgid "Watchdog Settings"
+msgstr ""
+
+#: luasrc/model/cbi/watchdog/watchdog.lua:51
+msgid "Watchdog period cannot be less than timeout"
+msgstr ""
+
+#: luasrc/model/cbi/watchdog/watchdog.lua:40
+msgid "Watchdog reset interval in seconds."
+msgstr ""

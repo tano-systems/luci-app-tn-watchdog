@@ -1,0 +1,10 @@
+<%#
+ Copyright (c) 2019, Tano Systems. All Rights Reserved.
+ Authors: Anton Kikin <a.kikin@tano-systems.com>
+-%>
+
+<% wd = require "luci.tools.watchdog" %>
+<div class="cbi-section"><p><div class="cbi-section-node tano-copyright">
+<%=string.format('<a href="%s">%s</a>', wd.home(), translatef('Watchdog LuCI application (version %s)', wd.version()))%><br />
+<%=translate('&copy; 2019, Tano Systems, Anton Kikin &lt;<a href="mailto:a.kikin@tano-systems.com"><nobr>a.kikin@tano-systems.com</nobr></a>&gt;')%>
+</div></p></div>
