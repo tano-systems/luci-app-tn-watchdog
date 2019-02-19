@@ -1,7 +1,7 @@
 # Watchdog configuration LuCI application
 
 ## Description
-This is an alternate application for SNMP daemon configuration from LuCI web UI.
+This is an LuCI web UI application for watchdog configuration.
 
 ## Dependencies and Limitations
 This LuCI application developed for LuCI 18.06 branch.
