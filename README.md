@@ -1,4 +1,4 @@
-# LuCI support for watchdog
+# Watchdog configuration LuCI application
 
 ## Description
 This is an alternate application for SNMP daemon configuration from LuCI web UI.
@@ -13,5 +13,9 @@ Custom procd and watchdog init scripts can be found in the [meta-tano-openwrt] O
 ## Supported languages
 - English
 - Russian
+
+## Screenshots
+
+![Watchdog Settings](screenshots/luci-app-watchdog.png?raw=true "Watchdog Settings")
 
 [meta-tano-openwrt]: https://github.com/tano-systems/meta-tano-openwrt.git
