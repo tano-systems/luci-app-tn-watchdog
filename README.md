@@ -8,7 +8,7 @@ This LuCI application developed for LuCI 18.06 branch.
 
 This application needs custom initialization scripts for busybox watchdog utility and
 custom procd with extra features for setting scheduling policy and priority from init scripts.
-Custom procd and watchdog init scripts can be found in the [meta-tano-openwrt] OpenEmbedded layer.
+Custom procd and watchdog init scripts can be found in the [meta-tanowrt] OpenEmbedded layer.
 
 ## Supported languages
 - English
@@ -18,4 +18,4 @@ Custom procd and watchdog init scripts can be found in the [meta-tano-openwrt] O
 
 ![Watchdog Settings](screenshots/luci-app-watchdog.png?raw=true "Watchdog Settings")
 
-[meta-tano-openwrt]: https://github.com/tano-systems/meta-tano-openwrt.git
+[meta-tanowrt]: https://github.com/tano-systems/meta-tanowrt.git
