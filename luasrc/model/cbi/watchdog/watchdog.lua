@@ -16,7 +16,7 @@ m = Map("watchdog",
 
 s = m:section(TypedSection, "watchdog")
 s.anonymous = true
-s.addremove = false
+s.addremove = true
 
 -- Device
 local wd_device = s:option(Value, "device",
