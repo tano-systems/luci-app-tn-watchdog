@@ -8,4 +8,7 @@ All dates in this document are in `DD.MM.YYYY` format.
 
 ## [Unreleased]
 
+### Changed
+- Removed useless ucitrack definitions
+
 [Unreleased]: https://github.com/tano-systems/luci-app-watchdog/tree/master
