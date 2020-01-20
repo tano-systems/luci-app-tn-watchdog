@@ -104,7 +104,10 @@ wd_nice.datatype = "range(-20,19)"
 
 -----------------------------------------------------------------------------------
 
-m:section(SimpleSection, nil).template = "watchdog/footer"
+local hide_footer = m.uci:get_bool("luci", "app_tn_watchdog", "hide_footer") or false
+if hide_footer == false then
+	m:section(SimpleSection, nil).template = "watchdog/footer"
+end
 
 -----------------------------------------------------------------------------------
 
