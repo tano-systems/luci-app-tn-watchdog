@@ -4,7 +4,7 @@
 This is an LuCI web UI application for watchdog configuration.
 
 ## Dependencies and Limitations
-This LuCI application developed for LuCI 18.06 branch.
+This LuCI application developed for LuCI 19.07+ branch.
 
 This application needs custom initialization scripts for busybox watchdog utility and
 custom procd with extra features for setting scheduling policy and priority from init scripts.

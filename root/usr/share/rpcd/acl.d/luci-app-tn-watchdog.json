@@ -1,0 +1,11 @@
+{
+	"luci-app-tn-watchdog": {
+		"description": "Grant access to watchdog control",
+		"read": {
+			"uci": ["watchdog"]
+		},
+		"write": {
+			"uci": ["watchdog"]
+		}
+	}
+}

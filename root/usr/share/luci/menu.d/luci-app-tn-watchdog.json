@@ -1,0 +1,13 @@
+{
+	"admin/system/watchdog": {
+		"title": "Watchdog",
+		"order": 5,
+		"action": {
+			"type": "view",
+			"path": "watchdog/watchdog"
+		},
+		"depends": {
+			"uci": { "watchdog": true }
+		}
+	}
+}
