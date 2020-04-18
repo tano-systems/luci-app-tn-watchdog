@@ -1,53 +1,57 @@
 msgid ""
 msgstr "Content-Type: text/plain; charset=UTF-8"
 
-#: htdocs/luci-static/resources/view/watchdog/watchdog.js:45
+#: htdocs/luci-static/resources/view/watchdog/watchdog.js:49
 msgid "Device"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/watchdog/watchdog.js:51
+#: htdocs/luci-static/resources/view/watchdog/watchdog.js:55
 msgid "Device must be specified"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/watchdog/watchdog.js:38
+#: root/usr/share/rpcd/acl.d/luci-app-tn-watchdog.json:3
+msgid "Grant access to watchdog control"
+msgstr ""
+
+#: htdocs/luci-static/resources/view/watchdog/watchdog.js:40
 msgid "On this page you may configure watchdog settings."
 msgstr ""
 
-#: htdocs/luci-static/resources/view/watchdog/watchdog.js:76
+#: htdocs/luci-static/resources/view/watchdog/watchdog.js:80
 msgid "Period"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/watchdog/watchdog.js:117
+#: htdocs/luci-static/resources/view/watchdog/watchdog.js:121
 msgid "Scheduling 'nice' value"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/watchdog/watchdog.js:96
+#: htdocs/luci-static/resources/view/watchdog/watchdog.js:100
 msgid "Scheduling policy"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/watchdog/watchdog.js:105
+#: htdocs/luci-static/resources/view/watchdog/watchdog.js:109
 msgid "Scheduling priority"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/watchdog/watchdog.js:118
+#: htdocs/luci-static/resources/view/watchdog/watchdog.js:122
 msgid ""
 "This parameter specifies the nice value to be set when specifying scheduling "
 "policy as SCHED_OTHER. The nice value is a number in the range -20 (high "
 "priority) to +19 (low priority)."
 msgstr ""
 
-#: htdocs/luci-static/resources/view/watchdog/watchdog.js:106
+#: htdocs/luci-static/resources/view/watchdog/watchdog.js:110
 msgid ""
 "This parameter specifies the static priority to be set when specifying "
 "scheduling policy as SCHED_FIFO or SCHED_RR. The allowed range of priorities "
 "usually is in the range 1 (low priority) to 99 (high priority)."
 msgstr ""
 
-#: htdocs/luci-static/resources/view/watchdog/watchdog.js:67
+#: htdocs/luci-static/resources/view/watchdog/watchdog.js:71
 msgid "Timeout"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/watchdog/watchdog.js:68
+#: htdocs/luci-static/resources/view/watchdog/watchdog.js:72
 msgid ""
 "Timeout value in seconds. If the watchdog is not resetted within the "
 "specified time, the system will be rebooted."
@@ -57,14 +61,14 @@ msgstr ""
 msgid "Watchdog"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/watchdog/watchdog.js:37
+#: htdocs/luci-static/resources/view/watchdog/watchdog.js:39
 msgid "Watchdog Settings"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/watchdog/watchdog.js:89
+#: htdocs/luci-static/resources/view/watchdog/watchdog.js:93
 msgid "Watchdog period cannot be less than timeout"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/watchdog/watchdog.js:77
+#: htdocs/luci-static/resources/view/watchdog/watchdog.js:81
 msgid "Watchdog reset interval in seconds."
 msgstr ""
