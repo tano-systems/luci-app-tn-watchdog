@@ -7,7 +7,8 @@
 			"path": "watchdog/watchdog"
 		},
 		"depends": {
-			"uci": { "watchdog": true }
+			"uci": { "watchdog": true },
+			"acl": [ "luci-app-tn-watchdog" ]
 		}
 	}
 }
