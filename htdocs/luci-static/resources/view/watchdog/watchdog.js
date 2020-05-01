@@ -62,8 +62,8 @@ return L.view.extend({
 		m.readonly = isReadonlyView;
 
 		s = m.section(form.TypedSection, 'watchdog');
-		s.anonymous = true
-		s.addremove = true
+		s.anonymous = true;
+		s.addremove = true;
 
 		/* Device */
 		o = s.option(form.Value, 'device', _('Device'));
@@ -115,11 +115,11 @@ return L.view.extend({
 
 		/* Scheduling policy */
 		o = s.option(form.ListValue, 'policy', _('Scheduling policy'));
-		o.value('SCHED_OTHER')
-		o.value('SCHED_FIFO')
-		o.value('SCHED_RR')
-		o.default = 'SCHED_RR'
-		o.rmempty = false
+		o.value('SCHED_OTHER');
+		o.value('SCHED_FIFO');
+		o.value('SCHED_RR');
+		o.default = 'SCHED_RR';
+		o.rmempty = false;
 
 		/* Priority */
 		o = s.option(form.Value, 'priority',
@@ -140,8 +140,8 @@ return L.view.extend({
 			  'scheduling policy as SCHED_OTHER. The nice value is ' +
 			  'a number in the range -20 (high priority) to +19 (low priority).'));
 
-		o.default = 0
-		o.rmempty = false
+		o.default = 0;
+		o.rmempty = false;
 		o.datatype = 'range(-20,19)';
 
 		return m.render();
